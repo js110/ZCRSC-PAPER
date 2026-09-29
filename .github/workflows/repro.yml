@@ -1,0 +1,28 @@
+name: Reproducibility smoke tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+      - name: Install Python dependencies
+        run: python3 -m pip install -r requirements.txt
+      - name: Reference-semantics tests
+        working-directory: prototype
+        run: python3 -m unittest -v test_robust_depth.py
+      - name: Go and gnark tests
+        working-directory: prototype/zkdepth
+        run: go test ./...
+      - name: Synthetic semantic smoke run
+        run: python3 experiments/run_semantic_evaluation.py --seeds 3 --events-per-seed 20 --output /tmp/semantic_smoke.json

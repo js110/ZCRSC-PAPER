@@ -1,0 +1,4 @@
+09:10:02 INF compiling circuit
+09:10:02 INF parsed circuit inputs nbPublic=27 nbSecret=56
+09:10:03 INF building constraint builder nbConstraints=509277
+RESULT_JSON:{"backend":"depth","bits":16,"compile_ms":1302.133,"constraints":509277,"d":2,"go_version":"go1.25.6","goarch":"arm64","goos":"darwin","k":7,"n":8}

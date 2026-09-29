@@ -1,0 +1,213 @@
+{
+  "created_utc": "2026-09-15T01:08:02.231403+00:00",
+  "seed": 20260915,
+  "jobs": [
+    {
+      "n": 12,
+      "d": 3,
+      "k": 10,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 3,
+      "k": 7,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 3,
+      "k": 4,
+      "backend": "subset"
+    },
+    {
+      "n": 12,
+      "d": 2,
+      "k": 6,
+      "backend": "subset"
+    },
+    {
+      "n": 16,
+      "d": 3,
+      "k": 15,
+      "backend": "subset"
+    },
+    {
+      "n": 16,
+      "d": 2,
+      "k": 15,
+      "backend": "depth"
+    },
+    {
+      "n": 8,
+      "d": 3,
+      "k": 6,
+      "backend": "subset"
+    },
+    {
+      "n": 4,
+      "d": 2,
+      "k": 3,
+      "backend": "subset"
+    },
+    {
+      "n": 16,
+      "d": 3,
+      "k": 15,
+      "backend": "depth"
+    },
+    {
+      "n": 12,
+      "d": 2,
+      "k": 11,
+      "backend": "depth"
+    },
+    {
+      "n": 16,
+      "d": 2,
+      "k": 14,
+      "backend": "subset"
+    },
+    {
+      "n": 12,
+      "d": 3,
+      "k": 11,
+      "backend": "subset"
+    },
+    {
+      "n": 16,
+      "d": 3,
+      "k": 8,
+      "backend": "subset"
+    },
+    {
+      "n": 4,
+      "d": 3,
+      "k": 3,
+      "backend": "depth"
+    },
+    {
+      "n": 4,
+      "d": 3,
+      "k": 2,
+      "backend": "subset"
+    },
+    {
+      "n": 12,
+      "d": 3,
+      "k": 11,
+      "backend": "depth"
+    },
+    {
+      "n": 16,
+      "d": 3,
+      "k": 14,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 3,
+      "k": 7,
+      "backend": "depth"
+    },
+    {
+      "n": 4,
+      "d": 2,
+      "k": 2,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 2,
+      "k": 6,
+      "backend": "subset"
+    },
+    {
+      "n": 16,
+      "d": 2,
+      "k": 15,
+      "backend": "subset"
+    },
+    {
+      "n": 4,
+      "d": 3,
+      "k": 3,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 2,
+      "k": 4,
+      "backend": "subset"
+    },
+    {
+      "n": 12,
+      "d": 2,
+      "k": 10,
+      "backend": "subset"
+    },
+    {
+      "n": 16,
+      "d": 2,
+      "k": 8,
+      "backend": "subset"
+    },
+    {
+      "n": 4,
+      "d": 2,
+      "k": 3,
+      "backend": "depth"
+    },
+    {
+      "n": 5,
+      "d": 2,
+      "k": 4,
+      "backend": "depth"
+    },
+    {
+      "n": 12,
+      "d": 2,
+      "k": 11,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 2,
+      "k": 7,
+      "backend": "depth"
+    },
+    {
+      "n": 5,
+      "d": 2,
+      "k": 4,
+      "backend": "subset"
+    },
+    {
+      "n": 12,
+      "d": 3,
+      "k": 6,
+      "backend": "subset"
+    },
+    {
+      "n": 8,
+      "d": 2,
+      "k": 7,
+      "backend": "subset"
+    }
+  ],
+  "timeout_seconds": 30,
+  "rss_cap_bytes": 3221225472,
+  "poll_seconds": 0.05,
+  "repetitions": 1,
+  "scope": "Full R1CS compilation only; times descriptive, no setup/proving",
+  "host": "macOS-26.6.2-arm64-arm-64bit",
+  "cpu": "arm",
+  "physical_memory_bytes": 17179869184,
+  "sources": {
+    "prototype/zkdepth/circuit.go": "ad3d92a7abd138b28d11a8a4ed2b6fe17ffcbfa17c7a0315e2e8b67313b694f7",
+    "prototype/zkdepth/go.mod": "19ac7b022682c17317eb57f32c09ff87471de9fc2286a1499166625a9d3250dd",
+    "prototype/zkdepth/go.sum": "c3ad56614ecdd572d32e6751d7435a33ea20444f8348d49a76fb6945ce6adad8",
+    "prototype/zkdepth/cmd/compilebench/main.go": "b923cecfdbd9a6d12c8be71f970757ecfe90b384f3479279ce167d32c7d8a42d",
+    "experiments/run_compile_sweep.py": "fad4985282495edcb72eaaee85d2f7c315091537b2b46d9df5944e97349abe60"
+  }
+}

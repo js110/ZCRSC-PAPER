@@ -1,0 +1,68 @@
+{
+  "rows": [
+    {
+      "condition": "calibrated_correlated__radius_4__byz_1",
+      "r": 0,
+      "k": 4,
+      "false_accept_rate": 0.0,
+      "false_reject_rate": 0.0,
+      "ambiguous_rate": 0.14958333333333332,
+      "evidence_failure_rate": 0.0,
+      "decisive_coverage": 0.8504166666666666
+    },
+    {
+      "condition": "calibrated_correlated__radius_4__byz_1",
+      "r": 1,
+      "k": 3,
+      "false_accept_rate": 0.0,
+      "false_reject_rate": 0.0,
+      "ambiguous_rate": 0.18750000000000003,
+      "evidence_failure_rate": 0.0,
+      "decisive_coverage": 0.8125000000000001
+    },
+    {
+      "condition": "calibrated_correlated__radius_4__byz_1",
+      "r": 2,
+      "k": 2,
+      "false_accept_rate": 0.0,
+      "false_reject_rate": 0.0,
+      "ambiguous_rate": 0.22541666666666668,
+      "evidence_failure_rate": 0.0,
+      "decisive_coverage": 0.7745833333333334
+    },
+    {
+      "condition": "undercovered_correlated__radius_4__byz_1",
+      "r": 0,
+      "k": 4,
+      "false_accept_rate": 0.002311985400220694,
+      "false_reject_rate": 0.03406204906204906,
+      "ambiguous_rate": 0.15083333333333332,
+      "evidence_failure_rate": 0.0,
+      "decisive_coverage": 0.8491666666666667
+    },
+    {
+      "condition": "undercovered_correlated__radius_4__byz_1",
+      "r": 1,
+      "k": 3,
+      "false_accept_rate": 0.0,
+      "false_reject_rate": 0.017936507936507935,
+      "ambiguous_rate": 0.18333333333333332,
+      "evidence_failure_rate": 0.0,
+      "decisive_coverage": 0.8166666666666667
+    },
+    {
+      "condition": "undercovered_correlated__radius_4__byz_1",
+      "r": 2,
+      "k": 2,
+      "false_accept_rate": 0.0,
+      "false_reject_rate": 0.009444444444444445,
+      "ambiguous_rate": 0.21499999999999997,
+      "evidence_failure_rate": 0.0,
+      "decisive_coverage": 0.7849999999999999
+    }
+  ],
+  "design": "same seeds, event generator and policy; only r changes",
+  "events_per_r": 64800,
+  "total_observations_including_r0": 194400,
+  "note": "r1/r2 are matched reanalyses with shared random seeds, not independent additional datasets"
+}

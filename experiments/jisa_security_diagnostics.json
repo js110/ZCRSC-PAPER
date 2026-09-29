@@ -1,0 +1,58 @@
+{
+  "generated_from": "run_semantic_evaluation.py on GitHub Actions, commit e9c60c4a26789d97ce8858b3b33342eb25191fc5",
+  "focus_condition": {
+    "radius": 4,
+    "actual_byzantine": 1,
+    "sources": 5,
+    "events": 2400
+  },
+  "honest_miss_histogram_undercovered": {
+    "0": 1258,
+    "1": 249,
+    "2": 255,
+    "3": 283,
+    "4": 355
+  },
+  "by_budget": [
+    {
+      "r": 0,
+      "p_m_le_r": 0.5241666666666667,
+      "p_m_gt_r": 0.47583333333333333,
+      "wrong_decisive_rate_m_le_r": 0,
+      "wrong_decisive_rate_m_gt_r": 0.013134851138353765
+    },
+    {
+      "r": 1,
+      "p_m_le_r": 0.6279166666666667,
+      "p_m_gt_r": 0.3720833333333333,
+      "wrong_decisive_rate_m_le_r": 0,
+      "wrong_decisive_rate_m_gt_r": 0.006718924972004479
+    },
+    {
+      "r": 2,
+      "p_m_le_r": 0.7341666666666666,
+      "p_m_gt_r": 0.2658333333333333,
+      "wrong_decisive_rate_m_le_r": 0,
+      "wrong_decisive_rate_m_gt_r": 0.004702194357366771
+    }
+  ],
+  "calibrated_correlated": {
+    "miss_histogram": {
+      "0": 2400
+    },
+    "wrong_decisive_rate_m_le_r": 0
+  },
+  "point_zk_lower_bound": {
+    "note": "Same gnark/Groth16/BN254 stack; predicate only; no signatures, boxes, or Byzantine robustness.",
+    "d2": {
+      "constraints": 408,
+      "proof_bytes": 164,
+      "public_witness_bytes": 268
+    },
+    "d3": {
+      "constraints": 612,
+      "proof_bytes": 164,
+      "public_witness_bytes": 396
+    }
+  }
+}

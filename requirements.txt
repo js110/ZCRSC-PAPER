@@ -1,0 +1,4 @@
+# Direct Python dependencies used by manuscript experiments and plotting.
+# CI also pins Python 3.13. Transitive wheels are resolved by pip and are not hash-locked.
+numpy==2.5.3
+matplotlib==3.11.2

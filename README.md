@@ -47,7 +47,7 @@ python3 experiments/summarize_ablation.py
 python3 experiments/summarize_results.py
 ```
 
-The three full per-event semantic result files (`semantic_results.json`, `semantic_results_r1.json`, and `semantic_results_r2.json`) are deterministic generated artifacts of roughly 2.3 MB each. They are not duplicated in this migrated repository snapshot because the connector used for the migration cannot reliably transfer those large text blobs; the commands above regenerate them from the tracked scripts and fixed seeds. The compact tables, summaries, benchmark records, and other archived results used to audit the manuscript are tracked.
+The three full per-event semantic result files (`semantic_results.json`, `semantic_results_r1.json`, and `semantic_results_r2.json`) are deterministic generated artifacts of roughly 2.3 MB each. They are intentionally not versioned in this lean reproducibility repository because the commands above regenerate them from tracked scripts and fixed seeds. The compact tables, summaries, benchmark records, and other archived results used to audit the manuscript are tracked.
 
 ## Scope
 

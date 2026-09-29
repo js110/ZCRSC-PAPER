@@ -1,0 +1,39 @@
+{
+  "constraints": 19467,
+  "repetitions": 10,
+  "prove_ms": [
+    556.639,
+    759.925,
+    515.406,
+    515.652,
+    488.8,
+    493.168,
+    505.941,
+    515.698,
+    521.169,
+    504.997
+  ],
+  "verify_ms": [
+    2.929,
+    1.8,
+    1.696,
+    1.667,
+    1.761,
+    1.843,
+    1.793,
+    1.716,
+    1.705,
+    1.68
+  ],
+  "prove_median_ms": 515.529,
+  "verify_median_ms": 1.7385,
+  "proof_bytes": 196,
+  "public_witness_bytes": 140,
+  "go_version": "go1.24.13",
+  "goos": "linux",
+  "goarch": "amd64",
+  "backend": "Groth16",
+  "curve": "BN254",
+  "upstream_commit": "e8e321524982ddd9dddea37db6fa352529db62c4",
+  "note": "Independent same-runner smoke benchmark over the first upstream ZKLP32 test vector; upstream gnark fork based on v0.9.1. Different relation and library version from this paper."
+}

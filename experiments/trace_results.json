@@ -1,0 +1,2789 @@
+{
+  "source": "UrbanNav-HK-Medium-Urban-1 reference trajectory",
+  "source_url": "https://github.com/IPNL-POLYU/UrbanNavDataset",
+  "sha256": "9d48bb497878aafbd17290789560394c72ecafec20c9e0eaff448418695d92bf",
+  "rows": 787,
+  "duration_seconds": 786.0,
+  "inside_events": 169,
+  "seeds": 30,
+  "domain": {
+    "lo": [
+      0,
+      0,
+      0
+    ],
+    "hi": [
+      650,
+      853,
+      986
+    ]
+  },
+  "policy": {
+    "lo": [
+      163,
+      161,
+      257
+    ],
+    "hi": [
+      478,
+      641,
+      728
+    ]
+  },
+  "evidence": "simulated bounded temporally correlated errors; no measured GNSS residuals",
+  "independent_unit": "randomized evidence realization conditional on one fixed trajectory",
+  "results": {
+    "calibrated_correlated": {
+      "seed_rates": {
+        "median_point": [
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.047337278106508875,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.98856416772554
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9961880559085133
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9898348157560356
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.09467455621301775,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9783989834815756
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9898348157560356
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9923761118170267
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.047337278106508875,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9911054637865311
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.05917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.05917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9872935196950444
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.10059171597633136,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.97712833545108
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9961880559085133
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9961880559085133
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.98856416772554
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9898348157560356
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9987293519695044
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.0650887573964497,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9834815756035579
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.07692307692307693,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9809402795425667
+          }
+        ],
+        "majority_center": [
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.047337278106508875,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.98856416772554
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9872935196950444
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.09467455621301775,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9783989834815756
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9872935196950444
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9911054637865311
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9898348157560356
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.05917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9923761118170267
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0650887573964497,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9923761118170267
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9923761118170267
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.10650887573964497,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9758576874205845
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9961880559085133
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.047337278106508875,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9872935196950444
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.98856416772554
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9936467598475223
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9949174078780177
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9987293519695044
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.0650887573964497,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9834815756035579
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.07692307692307693,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9809402795425667
+          }
+        ],
+        "fixed_margin": [
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1855146124523507,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8144853875476493,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17789072426937738,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8221092757306226,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18043202033036848,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8195679796696315,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.15120711562897077,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8487928843710292,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19949174078780177,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8005082592121983,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1855146124523507,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8144853875476493,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19440914866581957,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8055908513341804,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17407878017789072,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8259212198221093,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17153748411689962,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8284625158831004,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17916137229987295,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.820838627700127,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18170266836086404,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.818297331639136,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1855146124523507,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8144853875476493,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.15247776365946633,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8475222363405337,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17534942820838628,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8246505717916137,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.15374841168996187,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8462515883100381,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.16010165184243966,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8398983481575604,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.20076238881829733,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.7992376111817027,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18424396442185514,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8157560355781448,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18297331639135958,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8170266836086404,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19186785260482847,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8081321473951716,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17662007623888182,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8233799237611181,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1639135959339263,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8360864040660737,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19567979669631513,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8043202033036849,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.193138500635324,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.806861499364676,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1855146124523507,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8144853875476493,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17534942820838628,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8246505717916137,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18424396442185514,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8157560355781448,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19822109275730623,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8017789072426937,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19822109275730623,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8017789072426937,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18043202033036848,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8195679796696315,
+            "decisive_accuracy": 1.0
+          }
+        ],
+        "all_intersection": [
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.951715374841169,
+            "decisive_coverage": 0.048284625158831,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.951715374841169,
+            "decisive_coverage": 0.048284625158831,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.951715374841169,
+            "decisive_coverage": 0.048284625158831,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.016181229773462782,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.951715374841169,
+            "decisive_coverage": 0.048284625158831,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.024271844660194174,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9466327827191868,
+            "decisive_coverage": 0.053367217280813214,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9479034307496823,
+            "decisive_coverage": 0.052096569250317665,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.024271844660194174,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9453621346886912,
+            "decisive_coverage": 0.054637865311308764,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.016181229773462782,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9542566709021602,
+            "decisive_coverage": 0.045743329097839895,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.022653721682847898,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9479034307496823,
+            "decisive_coverage": 0.052096569250317665,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.016181229773462782,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9542566709021602,
+            "decisive_coverage": 0.045743329097839895,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9479034307496823,
+            "decisive_coverage": 0.052096569250317665,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9542566709021602,
+            "decisive_coverage": 0.045743329097839895,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.951715374841169,
+            "decisive_coverage": 0.048284625158831,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          }
+        ],
+        "robust_depth": [
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.062261753494282084,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9377382465057179,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0724269377382465,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9275730622617535,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06353240152477764,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9364675984752223,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06861499364675985,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9313850063532402,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06480304955527319,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9351969504447268,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06607369758576874,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9339263024142312,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06607369758576874,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9339263024142312,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0724269377382465,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9275730622617535,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06480304955527319,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9351969504447268,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06861499364675985,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9313850063532402,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07115628970775095,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.928843710292249,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.062261753494282084,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9377382465057179,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.05590851334180432,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9440914866581956,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06353240152477764,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9364675984752223,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.060991105463786534,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9390088945362135,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06734434561626429,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9326556543837357,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06861499364675985,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9313850063532402,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06480304955527319,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9351969504447268,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06861499364675985,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9313850063532402,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0724269377382465,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9275730622617535,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06607369758576874,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9339263024142312,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06607369758576874,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9339263024142312,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0724269377382465,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9275730622617535,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07115628970775095,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.928843710292249,
+            "decisive_accuracy": 1.0
+          }
+        ]
+      },
+      "aggregate": {
+        "median_point": {
+          "false_accept_rate": {
+            "mean": 0.0029126213592233015,
+            "ci95_low": 0.0022428542249140586,
+            "ci95_high": 0.0035823884935325444
+          },
+          "false_reject_rate": {
+            "mean": 0.031163708086785015,
+            "ci95_low": 0.02140588163100148,
+            "ci95_high": 0.040921534542568555
+          },
+          "ambiguous_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "decisive_accuracy": {
+            "mean": 0.9910207539178314,
+            "ci95_low": 0.9890480359502902,
+            "ci95_high": 0.9929934718853726
+          }
+        },
+        "majority_center": {
+          "false_accept_rate": {
+            "mean": 0.0029126213592233015,
+            "ci95_low": 0.0022428542249140586,
+            "ci95_high": 0.0035823884935325444
+          },
+          "false_reject_rate": {
+            "mean": 0.03510848126232742,
+            "ci95_low": 0.025430199308703667,
+            "ci95_high": 0.044786763215951174
+          },
+          "ambiguous_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "decisive_accuracy": {
+            "mean": 0.9901736552308342,
+            "ci95_low": 0.9881937226178515,
+            "ci95_high": 0.9921535878438169
+          }
+        },
+        "fixed_margin": {
+          "false_accept_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "false_reject_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "ambiguous_rate": {
+            "mean": 0.18064379500211772,
+            "ci95_low": 0.1757174239444119,
+            "ci95_high": 0.18557016605982354
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 0.8193562049978822,
+            "ci95_low": 0.8144298339401764,
+            "ci95_high": 0.824282576055588
+          },
+          "decisive_accuracy": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          }
+        },
+        "all_intersection": {
+          "false_accept_rate": {
+            "mean": 0.019741100323624593,
+            "ci95_low": 0.019005518657007732,
+            "ci95_high": 0.020476681990241455
+          },
+          "false_reject_rate": {
+            "mean": 0.15759368836291915,
+            "ci95_low": 0.15555184052824744,
+            "ci95_high": 0.15963553619759085
+          },
+          "ambiguous_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "evidence_failure_rate": {
+            "mean": 0.9506565014824226,
+            "ci95_low": 0.949837149872454,
+            "ci95_high": 0.9514758530923912
+          },
+          "decisive_coverage": {
+            "mean": 0.04934349851757731,
+            "ci95_low": 0.048524146907608735,
+            "ci95_high": 0.05016285012754588
+          },
+          "decisive_accuracy": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          }
+        },
+        "robust_depth": {
+          "false_accept_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "false_reject_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "ambiguous_rate": {
+            "mean": 0.0673443456162643,
+            "ci95_low": 0.06592644344731445,
+            "ci95_high": 0.06876224778521416
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 0.9326556543837357,
+            "ci95_low": 0.9312377522147858,
+            "ci95_high": 0.9340735565526855
+          },
+          "decisive_accuracy": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          }
+        }
+      }
+    },
+    "undercovered_correlated": {
+      "seed_rates": {
+        "median_point": [
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9796696315120712
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.08875739644970414,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9720457433290979
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9822109275730623
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.1242603550295858,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9695044472681067
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.96569250317662
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.11834319526627218,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.963151207115629
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9796696315120712
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9822109275730623
+          },
+          {
+            "false_accept_rate": 0.008090614886731391,
+            "false_reject_rate": 0.08875739644970414,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.974587039390089
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.047337278106508875,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9783989834815756
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.08875739644970414,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9733163913595934
+          },
+          {
+            "false_accept_rate": 0.012944983818770227,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9872935196950444
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.1242603550295858,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9720457433290979
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9911054637865311
+          },
+          {
+            "false_accept_rate": 0.008090614886731391,
+            "false_reject_rate": 0.07692307692307693,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.97712833545108
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9618805590851334
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9911054637865311
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.07100591715976332,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9834815756035579
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.05917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.0650887573964497,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9783989834815756
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9923761118170267
+          },
+          {
+            "false_accept_rate": 0.008090614886731391,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9860228716645489
+          },
+          {
+            "false_accept_rate": 0.016181229773462782,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9758576874205845
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.14201183431952663,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9682337992376112
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.96569250317662
+          }
+        ],
+        "majority_center": [
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.07692307692307693,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9720457433290979
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.1242603550295858,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9644218551461246
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9809402795425667
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.006472491909385114,
+            "false_reject_rate": 0.05917159763313609,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9822109275730623
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9796696315120712
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.14201183431952663,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.96569250317662
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9644218551461246
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.13609467455621302,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9593392630241423
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.0650887573964497,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.97712833545108
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9809402795425667
+          },
+          {
+            "false_accept_rate": 0.008090614886731391,
+            "false_reject_rate": 0.08875739644970414,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.974587039390089
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.047337278106508875,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9783989834815756
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.10059171597633136,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9707750952986023
+          },
+          {
+            "false_accept_rate": 0.012944983818770227,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.1242603550295858,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9720457433290979
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9847522236340533
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.98856416772554
+          },
+          {
+            "false_accept_rate": 0.008090614886731391,
+            "false_reject_rate": 0.14201183431952663,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.963151207115629
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.20118343195266272,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9542566709021602
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.04142011834319527,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9834815756035579
+          },
+          {
+            "false_accept_rate": 0.0048543689320388345,
+            "false_reject_rate": 0.023668639053254437,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9911054637865311
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.08284023668639054,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9809402795425667
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.08284023668639054,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9796696315120712
+          },
+          {
+            "false_accept_rate": 0.009708737864077669,
+            "false_reject_rate": 0.07100591715976332,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.97712833545108
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.029585798816568046,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9911054637865311
+          },
+          {
+            "false_accept_rate": 0.008090614886731391,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9822109275730623
+          },
+          {
+            "false_accept_rate": 0.016181229773462782,
+            "false_reject_rate": 0.08284023668639054,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9695044472681067
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.1834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.9593392630241423
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 1.0,
+            "decisive_accuracy": 0.963151207115629
+          }
+        ],
+        "fixed_margin": [
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17280813214739518,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8271918678526048,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.16772554002541296,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.832274459974587,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1639135959339263,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8360864040660737,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1372299872935197,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8627700127064803,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19949174078780177,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8005082592121983,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1588310038119441,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.841168996188056,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19186785260482847,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8081321473951716,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1588310038119441,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.841168996188056,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17789072426937738,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8221092757306226,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.16264294790343076,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8373570520965693,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.14993646759847523,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8500635324015248,
+            "decisive_accuracy": 0.9970104633781763
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1855146124523507,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8144853875476493,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1372299872935197,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8627700127064803,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.13595933926302414,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8640406607369758,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.13595933926302414,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8640406607369758,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.13468869123252858,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8653113087674714,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18932655654383734,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8106734434561627,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.156289707750953,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.843710292249047,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.1613722998729352,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8386277001270648,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.18678526048284624,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8132147395171537,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.156289707750953,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.843710292249047,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.14358322744599747,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8564167725540025,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17534942820838628,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8246505717916137,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19949174078780177,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8005082592121983,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.16010165184243966,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8398983481575604,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.16772554002541296,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.832274459974587,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.17407878017789072,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8259212198221093,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.19440914866581957,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8055908513341804,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.2071156289707751,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.7928843710292249,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.16899618805590852,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8310038119440915,
+            "decisive_accuracy": 0.9969418960244648
+          }
+        ],
+        "all_intersection": [
+          {
+            "false_accept_rate": 0.022653721682847898,
+            "false_reject_rate": 0.09467455621301775,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9618805590851334,
+            "decisive_coverage": 0.03811944091486658,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.025889967637540454,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9453621346886912,
+            "decisive_coverage": 0.054637865311308764,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.030744336569579287,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9428208386277002,
+            "decisive_coverage": 0.05717916137229987,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.1242603550295858,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9580686149936467,
+            "decisive_coverage": 0.04193138500635324,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.021035598705501618,
+            "false_reject_rate": 0.10059171597633136,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9618805590851334,
+            "decisive_coverage": 0.03811944091486658,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.07100591715976332,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9695044472681067,
+            "decisive_coverage": 0.030495552731893267,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.17159763313609466,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9479034307496823,
+            "decisive_coverage": 0.052096569250317665,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.012944983818770227,
+            "false_reject_rate": 0.1834319526627219,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.025889967637540454,
+            "false_reject_rate": 0.17751479289940827,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9415501905972046,
+            "decisive_coverage": 0.05844980940279543,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.022653721682847898,
+            "false_reject_rate": 0.11834319526627218,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9567979669631512,
+            "decisive_coverage": 0.043202033036848796,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.025889967637540454,
+            "false_reject_rate": 0.13609467455621302,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.022653721682847898,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9491740787801779,
+            "decisive_coverage": 0.05082592121982211,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.02912621359223301,
+            "false_reject_rate": 0.13609467455621302,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9479034307496823,
+            "decisive_coverage": 0.052096569250317665,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.10059171597633136,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9644218551461246,
+            "decisive_coverage": 0.035578144853875476,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.012944983818770227,
+            "false_reject_rate": 0.1301775147928994,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9618805590851334,
+            "decisive_coverage": 0.03811944091486658,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.024271844660194174,
+            "false_reject_rate": 0.13609467455621302,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.951715374841169,
+            "decisive_coverage": 0.048284625158831,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.014563106796116505,
+            "false_reject_rate": 0.11834319526627218,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.963151207115629,
+            "decisive_coverage": 0.036848792884371026,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.02750809061488673,
+            "false_reject_rate": 0.05325443786982249,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9669631512071156,
+            "decisive_coverage": 0.03303684879288437,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.02912621359223301,
+            "false_reject_rate": 0.17159763313609466,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.940279542566709,
+            "decisive_coverage": 0.05972045743329098,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.024271844660194174,
+            "false_reject_rate": 0.09467455621301775,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9606099110546379,
+            "decisive_coverage": 0.03939008894536213,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.02912621359223301,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9428208386277002,
+            "decisive_coverage": 0.05717916137229987,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.011326860841423949,
+            "false_reject_rate": 0.15384615384615385,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9580686149936467,
+            "decisive_coverage": 0.04193138500635324,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.016181229773462782,
+            "false_reject_rate": 0.15976331360946747,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9529860228716646,
+            "decisive_coverage": 0.04701397712833545,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.025889967637540454,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9479034307496823,
+            "decisive_coverage": 0.052096569250317665,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.022653721682847898,
+            "false_reject_rate": 0.14792899408284024,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9504447268106735,
+            "decisive_coverage": 0.04955527318932656,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.019417475728155338,
+            "false_reject_rate": 0.08284023668639054,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9669631512071156,
+            "decisive_coverage": 0.03303684879288437,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.0372168284789644,
+            "false_reject_rate": 0.16568047337278108,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9351969504447268,
+            "decisive_coverage": 0.06480304955527319,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.13609467455621302,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9567979669631512,
+            "decisive_coverage": 0.043202033036848796,
+            "decisive_accuracy": 0.0
+          },
+          {
+            "false_accept_rate": 0.01779935275080906,
+            "false_reject_rate": 0.1893491124260355,
+            "ambiguous_rate": 0.0,
+            "evidence_failure_rate": 0.9453621346886912,
+            "decisive_coverage": 0.054637865311308764,
+            "decisive_accuracy": 0.0
+          }
+        ],
+        "robust_depth": [
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.08132147395171538,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9186785260482846,
+            "decisive_accuracy": 0.9986168741355463
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.08513341804320203,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9148665819567979,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.09275730622617535,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9072426937738246,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06480304955527319,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9351969504447268,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07115628970775095,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.928843710292249,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06861499364675985,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9313850063532402,
+            "decisive_accuracy": 0.9986357435197817
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.09021601016518424,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9097839898348158,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.06353240152477764,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9364675984752223,
+            "decisive_accuracy": 0.9972862957937585
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.09529860228716645,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9047013977128335,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07496823379923762,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9250317662007624,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.003236245954692557,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.0698856416772554,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9301143583227446,
+            "decisive_accuracy": 0.9972677595628415
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07750952986022872,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9224904701397713,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07115628970775095,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.928843710292249,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.06353240152477764,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9364675984752223,
+            "decisive_accuracy": 0.9986431478968792
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.05844980940279543,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9415501905972046,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.06861499364675985,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9313850063532402,
+            "decisive_accuracy": 0.9986357435197817
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.07623888182973317,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9237611181702668,
+            "decisive_accuracy": 0.9958734525447043
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.06734434561626429,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9326556543837357,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.01775147928994083,
+            "ambiguous_rate": 0.08386277001270648,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9161372299872935,
+            "decisive_accuracy": 0.9944521497919556
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.10165184243964422,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8983481575603558,
+            "decisive_accuracy": 0.9915134370579916
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07878017789072427,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9212198221092758,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07369758576874205,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9263024142312579,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.07496823379923762,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9250317662007624,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.08640406607369759,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9135959339263025,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0016181229773462784,
+            "false_reject_rate": 0.005917159763313609,
+            "ambiguous_rate": 0.08132147395171538,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9186785260482846,
+            "decisive_accuracy": 0.9972337482710927
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.08005082592121983,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9199491740787802,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.060991105463786534,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9390088945362135,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.0,
+            "ambiguous_rate": 0.10419313850063533,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.8958068614993647,
+            "decisive_accuracy": 1.0
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.011834319526627219,
+            "ambiguous_rate": 0.0940279542566709,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9059720457433291,
+            "decisive_accuracy": 0.9971949509116409
+          },
+          {
+            "false_accept_rate": 0.0,
+            "false_reject_rate": 0.03550295857988166,
+            "ambiguous_rate": 0.0724269377382465,
+            "evidence_failure_rate": 0.0,
+            "decisive_coverage": 0.9275730622617535,
+            "decisive_accuracy": 0.9917808219178083
+          }
+        ]
+      },
+      "aggregate": {
+        "median_point": {
+          "false_accept_rate": {
+            "mean": 0.008306364617044228,
+            "ci95_low": 0.006601271181280972,
+            "ci95_high": 0.010011458052807485
+          },
+          "false_reject_rate": {
+            "mean": 0.06863905325443788,
+            "ci95_low": 0.052440499106285496,
+            "ci95_high": 0.08483760740259026
+          },
+          "ambiguous_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "decisive_accuracy": {
+            "mean": 0.9787378229563745,
+            "ci95_low": 0.9756726326082086,
+            "ci95_high": 0.9818030133045403
+          }
+        },
+        "majority_center": {
+          "false_accept_rate": {
+            "mean": 0.008306364617044228,
+            "ci95_low": 0.006601271181280972,
+            "ci95_high": 0.010011458052807485
+          },
+          "false_reject_rate": {
+            "mean": 0.08441814595660749,
+            "ci95_low": 0.06604333836301203,
+            "ci95_high": 0.10279295355020295
+          },
+          "ambiguous_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "decisive_accuracy": {
+            "mean": 0.9753494282083863,
+            "ci95_low": 0.9717659672119029,
+            "ci95_high": 0.9789328892048698
+          }
+        },
+        "fixed_margin": {
+          "false_accept_rate": {
+            "mean": 0.00010787486515641856,
+            "ci95_low": -0.00010355987055016183,
+            "ci95_high": 0.00031930960086299894
+          },
+          "false_reject_rate": {
+            "mean": 0.0003944773175542406,
+            "ci95_low": -0.00037869822485207106,
+            "ci95_high": 0.0011676528599605523
+          },
+          "ambiguous_rate": {
+            "mean": 0.16704786107581532,
+            "ci95_low": 0.1595728891470508,
+            "ci95_high": 0.17452283300457982
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 0.8329521389241847,
+            "ci95_low": 0.8254771669954203,
+            "ci95_high": 0.8404271108529492
+          },
+          "decisive_accuracy": {
+            "mean": 0.9997984119800879,
+            "ci95_low": 0.9995238656045121,
+            "ci95_high": 1.0000729583556636
+          }
+        },
+        "all_intersection": {
+          "false_accept_rate": {
+            "mean": 0.02216828478964401,
+            "ci95_low": 0.020049476491086664,
+            "ci95_high": 0.024287093088201355
+          },
+          "false_reject_rate": {
+            "mean": 0.1358974358974359,
+            "ci95_low": 0.12365792230316613,
+            "ci95_high": 0.14813694949170564
+          },
+          "ambiguous_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "evidence_failure_rate": {
+            "mean": 0.953409572215163,
+            "ci95_low": 0.9502136640529937,
+            "ci95_high": 0.9566054803773323
+          },
+          "decisive_coverage": {
+            "mean": 0.04659042778483693,
+            "ci95_low": 0.04339451962266763,
+            "ci95_high": 0.049786335947006224
+          },
+          "decisive_accuracy": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          }
+        },
+        "robust_depth": {
+          "false_accept_rate": {
+            "mean": 0.00032362459546925567,
+            "ci95_low": 4.32346563617331e-05,
+            "ci95_high": 0.0006040145345767782
+          },
+          "false_reject_rate": {
+            "mean": 0.004930966469428008,
+            "ci95_low": 0.0014104477862997645,
+            "ci95_high": 0.00845148515255625
+          },
+          "ambiguous_rate": {
+            "mean": 0.07776365946632785,
+            "ci95_low": 0.07349088919522492,
+            "ci95_high": 0.08203642973743078
+          },
+          "evidence_failure_rate": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "decisive_coverage": {
+            "mean": 0.9222363405336723,
+            "ci95_low": 0.9179635702625694,
+            "ci95_high": 0.9265091108047753
+          },
+          "decisive_accuracy": {
+            "mean": 0.9985711374974593,
+            "ci95_low": 0.9977202619469083,
+            "ci95_high": 0.9994220130480103
+          }
+        }
+      }
+    }
+  }
+}

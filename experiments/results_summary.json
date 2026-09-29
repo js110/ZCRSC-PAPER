@@ -1,0 +1,445 @@
+{
+  "stated_assumption_conditions": 12,
+  "robust_false_accept_mean_across_conditions": 0,
+  "robust_false_reject_mean_across_conditions": 0,
+  "robust_decisive_coverage_mean_across_conditions": 0.8751736111111111,
+  "fixed_margin_decisive_coverage_mean_across_conditions": 0.7563194444444444,
+  "focus_condition": "calibrated_correlated__radius_4__byz_1",
+  "focus": {
+    "median_point": {
+      "false_accept_rate": {
+        "mean": 0.021048430030540313,
+        "ci95_low": 0.015037741398872581,
+        "ci95_high": 0.027059118662208045,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0.15294372294372297,
+        "ci95_low": 0.10611387579279594,
+        "ci95_high": 0.19977357009465,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 1,
+        "ci95_low": 1,
+        "ci95_high": 1,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 0.9662500000000003,
+        "ci95_low": 0.9593853751222197,
+        "ci95_high": 0.9731146248777809,
+        "defined_seeds": 30
+      }
+    },
+    "majority_center": {
+      "false_accept_rate": {
+        "mean": 0.021048430030540313,
+        "ci95_low": 0.015037741398872581,
+        "ci95_high": 0.027059118662208045,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0.16301106301106302,
+        "ci95_low": 0.11369410110132266,
+        "ci95_high": 0.21232802492080338,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 1,
+        "ci95_low": 1,
+        "ci95_high": 1,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 0.9650000000000002,
+        "ci95_low": 0.9581102942024344,
+        "ci95_high": 0.971889705797566,
+        "defined_seeds": 30
+      }
+    },
+    "fixed_margin": {
+      "false_accept_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0.24333333333333335,
+        "ci95_low": 0.22728121395929218,
+        "ci95_high": 0.2593854527073745,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 0.7566666666666667,
+        "ci95_low": 0.7406145472926255,
+        "ci95_high": 0.7727187860407079,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 1,
+        "ci95_low": 1,
+        "ci95_high": 1,
+        "defined_seeds": 30
+      }
+    },
+    "all_intersection": {
+      "false_accept_rate": {
+        "mean": 0.08636711514059343,
+        "ci95_low": 0.07341547665867394,
+        "ci95_high": 0.09931875362251293,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0.47545935545935536,
+        "ci95_low": 0.3846510611556248,
+        "ci95_high": 0.5662676497630859,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0.8762500000000001,
+        "ci95_low": 0.8620392231682812,
+        "ci95_high": 0.890460776831719,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 0.12375,
+        "ci95_low": 0.10953922316828106,
+        "ci95_high": 0.13796077683171892,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      }
+    },
+    "robust_depth": {
+      "false_accept_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0.14958333333333332,
+        "ci95_low": 0.13303388664095853,
+        "ci95_high": 0.1661327800257081,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 0.8504166666666666,
+        "ci95_low": 0.8338672199742918,
+        "ci95_high": 0.8669661133590414,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 1,
+        "ci95_low": 1,
+        "ci95_high": 1,
+        "defined_seeds": 30
+      }
+    }
+  },
+  "negative_controls": {
+    "undercoverage": {
+      "false_accept_rate": {
+        "mean": 0.002311985400220694,
+        "ci95_low": 0.00042865091079547575,
+        "ci95_high": 0.004195319889645913,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0.03406204906204906,
+        "ci95_low": 0.00926571846434248,
+        "ci95_high": 0.058858379659755634,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0.15083333333333332,
+        "ci95_low": 0.13593133675852132,
+        "ci95_high": 0.16573532990814532,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 0.8491666666666667,
+        "ci95_low": 0.8342646700918547,
+        "ci95_high": 0.8640686632414788,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 0.9926288884463035,
+        "ci95_low": 0.9884280080060595,
+        "ci95_high": 0.9968297688865475,
+        "defined_seeds": 30
+      }
+    },
+    "budget_exceeded": {
+      "false_accept_rate": {
+        "mean": 0.11616585508761075,
+        "ci95_low": 0.10336824585467366,
+        "ci95_high": 0.12896346432054784,
+        "defined_seeds": 30
+      },
+      "false_reject_rate": {
+        "mean": 0.608585211085211,
+        "ci95_low": 0.5380747333762688,
+        "ci95_high": 0.6790956887941533,
+        "defined_seeds": 30
+      },
+      "ambiguous_rate": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      },
+      "evidence_failure_rate": {
+        "mean": 0.8333333333333334,
+        "ci95_low": 0.8181833867583103,
+        "ci95_high": 0.8484832799083565,
+        "defined_seeds": 30
+      },
+      "decisive_coverage": {
+        "mean": 0.16666666666666666,
+        "ci95_low": 0.15151672009164358,
+        "ci95_high": 0.18181661324168974,
+        "defined_seeds": 30
+      },
+      "decisive_accuracy": {
+        "mean": 0,
+        "ci95_low": 0,
+        "ci95_high": 0,
+        "defined_seeds": 30
+      }
+    }
+  },
+  "hardware": {
+    "model": "Mac mini (Macmini9,1)",
+    "soc": "Apple M1, 8 cores (4 performance, 4 efficiency)",
+    "memory_gb": 16,
+    "os": "macOS 26.6.2",
+    "go": "1.25.6",
+    "gnark": "0.14.0"
+  },
+  "benchmark_rows": [
+    {
+      "geometry": "depth",
+      "n": 3,
+      "d": 2,
+      "constraints": 55987,
+      "setup_ms": 3635.938,
+      "prove_p50_ms": 213.11700000000002,
+      "prove_p95_ms": 244.82645,
+      "prove_p99_ms": 276.17987000000005,
+      "verify_p50_ms": 1.033,
+      "verify_p95_ms": 1.3496499999999998,
+      "verify_p99_ms": 1.38155,
+      "proof_bytes": 164,
+      "public_witness_bytes": 556
+    },
+    {
+      "geometry": "depth",
+      "n": 3,
+      "d": 3,
+      "constraints": 185229,
+      "setup_ms": 13835.432,
+      "prove_p50_ms": 548.328,
+      "prove_p95_ms": 707.3515499999999,
+      "prove_p99_ms": 789.29066,
+      "verify_p50_ms": 1.0665,
+      "verify_p95_ms": 1.4124499999999998,
+      "verify_p99_ms": 1.5433700000000001,
+      "proof_bytes": 164,
+      "public_witness_bytes": 684
+    },
+    {
+      "geometry": "depth",
+      "n": 4,
+      "d": 2,
+      "constraints": 97493,
+      "setup_ms": 7474.817,
+      "prove_p50_ms": 360.7435,
+      "prove_p95_ms": 427.17115,
+      "prove_p99_ms": 428.80567,
+      "verify_p50_ms": 1.081,
+      "verify_p95_ms": 1.51405,
+      "verify_p99_ms": 1.56304,
+      "proof_bytes": 164,
+      "public_witness_bytes": 620
+    },
+    {
+      "geometry": "depth",
+      "n": 4,
+      "d": 3,
+      "constraints": 510362,
+      "setup_ms": 38341.601,
+      "prove_p50_ms": 1090.9515000000001,
+      "prove_p95_ms": 1212.535,
+      "prove_p99_ms": 1260.4460900000001,
+      "verify_p50_ms": 1.0925,
+      "verify_p95_ms": 1.5059499999999997,
+      "verify_p99_ms": 1.61464,
+      "proof_bytes": 164,
+      "public_witness_bytes": 748
+    },
+    {
+      "geometry": "depth",
+      "n": 5,
+      "d": 2,
+      "constraints": 158781,
+      "setup_ms": 11561.272,
+      "prove_p50_ms": 574.6935,
+      "prove_p95_ms": 700.4929999999999,
+      "prove_p99_ms": 753.77685,
+      "verify_p50_ms": 1.073,
+      "verify_p95_ms": 1.2123000000000002,
+      "verify_p99_ms": 1.3768800000000003,
+      "proof_bytes": 164,
+      "public_witness_bytes": 684
+    },
+    {
+      "geometry": "subset",
+      "n": 3,
+      "d": 2,
+      "constraints": 32474,
+      "setup_ms": 1931.95,
+      "prove_p50_ms": 163.4155,
+      "prove_p95_ms": 168.89235,
+      "prove_p99_ms": 170.60217,
+      "verify_p50_ms": 1.0274999999999999,
+      "verify_p95_ms": 1.1931999999999998,
+      "verify_p99_ms": 1.24898,
+      "proof_bytes": 164,
+      "public_witness_bytes": 556
+    },
+    {
+      "geometry": "subset",
+      "n": 3,
+      "d": 3,
+      "constraints": 35248,
+      "setup_ms": 2229.334,
+      "prove_p50_ms": 206.33749999999998,
+      "prove_p95_ms": 218.97879999999998,
+      "prove_p99_ms": 225.37746,
+      "verify_p50_ms": 1.0594999999999999,
+      "verify_p95_ms": 1.2960999999999998,
+      "verify_p99_ms": 2.3371700000000013,
+      "proof_bytes": 164,
+      "public_witness_bytes": 684
+    },
+    {
+      "geometry": "subset",
+      "n": 4,
+      "d": 2,
+      "constraints": 42918,
+      "setup_ms": 2825.038,
+      "prove_p50_ms": 225.7855,
+      "prove_p95_ms": 234.11585,
+      "prove_p99_ms": 241.87416000000002,
+      "verify_p50_ms": 1.0375,
+      "verify_p95_ms": 1.3768499999999997,
+      "verify_p99_ms": 1.48015,
+      "proof_bytes": 164,
+      "public_witness_bytes": 620
+    },
+    {
+      "geometry": "subset",
+      "n": 4,
+      "d": 3,
+      "constraints": 46737,
+      "setup_ms": 2706.923,
+      "prove_p50_ms": 234.9335,
+      "prove_p95_ms": 248.09625,
+      "prove_p99_ms": 283.34198000000004,
+      "verify_p50_ms": 1.0385,
+      "verify_p95_ms": 1.2351499999999997,
+      "verify_p99_ms": 1.39534,
+      "proof_bytes": 164,
+      "public_witness_bytes": 748
+    },
+    {
+      "geometry": "subset",
+      "n": 5,
+      "d": 2,
+      "constraints": 53528,
+      "setup_ms": 3039.235,
+      "prove_p50_ms": 254.663,
+      "prove_p95_ms": 266.8612,
+      "prove_p99_ms": 271.81876,
+      "verify_p50_ms": 1.0514999999999999,
+      "verify_p95_ms": 1.3429999999999997,
+      "verify_p99_ms": 1.4511900000000002,
+      "proof_bytes": 164,
+      "public_witness_bytes": 684
+    }
+  ],
+  "focus_seed_cluster_wrong_decisive": {
+    "clusters": 30,
+    "clusters_with_any_wrong_decisive": 0,
+    "one_sided_exact_upper95_if_zero": 0.09503385285530419,
+    "estimand": "probability that an identically generated seed cluster contains at least one wrong decisive event",
+    "note": "Synthetic-generator bound; not a field error-rate bound."
+  }
+}

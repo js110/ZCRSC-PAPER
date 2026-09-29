@@ -1,0 +1,88 @@
+{
+  "scope": "Analytical illustration only; no hardware or compiled-circuit measurements",
+  "calibration_assumption": "Five independent Bernoulli misses with p=0.05 ONLY for exact tails",
+  "calibration": [
+    {
+      "r": 0,
+      "markov_bound": 0.25,
+      "independent_exact_tail": 0.22621906249999996
+    },
+    {
+      "r": 1,
+      "markov_bound": 0.125,
+      "independent_exact_tail": 0.022592499999999998
+    },
+    {
+      "r": 2,
+      "markov_bound": 0.08333333333333333,
+      "independent_exact_tail": 0.0011581250000000003
+    }
+  ],
+  "work_proxies": [
+    {
+      "n": 5,
+      "d": 2,
+      "k": 4,
+      "depth_proxy": 1250,
+      "subset_proxy": 40,
+      "depth_candidates_per_query": 25
+    },
+    {
+      "n": 5,
+      "d": 3,
+      "k": 4,
+      "depth_proxy": 13125,
+      "subset_proxy": 60,
+      "depth_candidates_per_query": 125
+    },
+    {
+      "n": 20,
+      "d": 2,
+      "k": 19,
+      "depth_proxy": 80000,
+      "subset_proxy": 760,
+      "depth_candidates_per_query": 400
+    },
+    {
+      "n": 20,
+      "d": 3,
+      "k": 19,
+      "depth_proxy": 3360000,
+      "subset_proxy": 1140,
+      "depth_candidates_per_query": 8000
+    },
+    {
+      "n": 20,
+      "d": 2,
+      "k": 10,
+      "depth_proxy": 80000,
+      "subset_proxy": 3695120,
+      "depth_candidates_per_query": 400
+    },
+    {
+      "n": 20,
+      "d": 3,
+      "k": 10,
+      "depth_proxy": 3360000,
+      "subset_proxy": 5542680,
+      "depth_candidates_per_query": 8000
+    },
+    {
+      "n": 30,
+      "d": 2,
+      "k": 15,
+      "depth_proxy": 270000,
+      "subset_proxy": 4653525600,
+      "depth_candidates_per_query": 900
+    },
+    {
+      "n": 30,
+      "d": 3,
+      "k": 15,
+      "depth_proxy": 17010000,
+      "subset_proxy": 6980288400,
+      "depth_candidates_per_query": 27000
+    }
+  ],
+  "counterexample_checked": true
+}

@@ -1,0 +1,11 @@
+{
+  "mean_percentage_points": 9.375,
+  "bootstrap95_percentage_points": [
+    8.25,
+    10.541666666666668
+  ],
+  "unit": "paired simulation seed",
+  "resamples": 10000,
+  "seed": 20260905,
+  "undefined_class_seed_count": 1
+}

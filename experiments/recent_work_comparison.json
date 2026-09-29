@@ -1,0 +1,155 @@
+{
+  "comparison_policy": {
+    "purpose": "Recent-work context, not a performance ranking.",
+    "cross_hardware_rule": "Source-reported runtimes are not compared as speedups across different machines, protocol stacks, or security relations.",
+    "same_runner_rule": "The ZKLP smoke benchmark and our subset benchmark run on the same GitHub Actions runner, but use different gnark versions and certify different relations; their timings remain descriptive only."
+  },
+  "zklp": {
+    "paper": "Ernstberger et al., IEEE S&P 2025",
+    "repository": "https://github.com/tumberger/zk-Location",
+    "pinned_commit": "e8e321524982ddd9dddea37db6fa352529db62c4",
+    "source_artifact": "benchmarks/m6i.xlarge/bench_ZKLP32_G16_BN254.txt",
+    "source_artifact_summary": {
+      "rows": 137,
+      "constraints": 21878,
+      "prover": {
+        "n": 137,
+        "mean_ms": 273.47026277372265,
+        "median_ms": 270.03,
+        "min_ms": 263.053,
+        "max_ms": 304.139
+      },
+      "verifier": {
+        "n": 137,
+        "mean_ms": 1.5284817518248177,
+        "median_ms": 1.388,
+        "min_ms": 1.324,
+        "max_ms": 1.779
+      },
+      "setup": {
+        "n": 137,
+        "mean_ms": 4195.313810218978,
+        "median_ms": 4195.396,
+        "min_ms": 4173.787,
+        "max_ms": 4220.226
+      }
+    },
+    "same_runner_smoke": {
+      "constraints": 19467,
+      "repetitions": 10,
+      "prove_ms": [
+        556.639,
+        759.925,
+        515.406,
+        515.652,
+        488.8,
+        493.168,
+        505.941,
+        515.698,
+        521.169,
+        504.997
+      ],
+      "verify_ms": [
+        2.929,
+        1.8,
+        1.696,
+        1.667,
+        1.761,
+        1.843,
+        1.793,
+        1.716,
+        1.705,
+        1.68
+      ],
+      "prove_median_ms": 515.529,
+      "verify_median_ms": 1.7385,
+      "proof_bytes": 196,
+      "public_witness_bytes": 140,
+      "go_version": "go1.24.13",
+      "goos": "linux",
+      "goarch": "amd64",
+      "backend": "Groth16",
+      "curve": "BN254",
+      "upstream_commit": "e8e321524982ddd9dddea37db6fa352529db62c4",
+      "note": "Independent same-runner smoke benchmark over the first upstream ZKLP32 test vector; upstream gnark fork based on v0.9.1. Different relation and library version from this paper."
+    }
+  },
+  "ours": {
+    "same_runner_subset_n3_d2": {
+      "n": 3,
+      "d": 2,
+      "bits": 16,
+      "repetitions": 10,
+      "constraints": 32474,
+      "compile_ms": 70.213,
+      "setup_ms": 7431.164,
+      "witness_ms": 0.13,
+      "prove_ms": [
+        641.089,
+        643.904,
+        648.027,
+        645.601,
+        648.409,
+        644.835,
+        627.5,
+        650.494,
+        645.437,
+        640.986
+      ],
+      "verify_ms": [
+        1.57,
+        1.401,
+        1.582,
+        1.646,
+        1.534,
+        1.659,
+        1.561,
+        1.502,
+        1.481,
+        1.494
+      ],
+      "prove_median_ms": 645.136,
+      "verify_median_ms": 1.5475,
+      "proof_bytes": 164,
+      "public_witness_bytes": 556,
+      "go_version": "go1.25.0",
+      "goos": "linux",
+      "goarch": "amd64",
+      "gnark_version": "v0.14.0",
+      "backend": "Groth16",
+      "curve": "BN254",
+      "coordinate_convention": "inclusive quantized integer boxes",
+      "geometry_backend": "subset"
+    }
+  },
+  "recent_work_context": [
+    {
+      "work": "BFT-PoLoc",
+      "year": 2024,
+      "evaluation": "450 RIPE Atlas Waldos; 22/37/450 challengers; 37 deployed cloud challengers (34 US, 2 Canada, 1 Mexico).",
+      "reported_result": "<100 km uncertainty for about 20%, 25%, 45% with 22, 37, 450 challengers; <1000 km for about 80%, 85%, 95%.",
+      "comparability": "Different problem: Internet-delay localization; no ZK witness-hiding comparison."
+    },
+    {
+      "work": "PG",
+      "year": 2024,
+      "evaluation": "AWS deployment up to 261 sensors and cyber-physical deployment up to 19 resource-constrained sensors.",
+      "reported_result": "Privacy-preserving Byzantine sensor fusion with guaranteed output delivery.",
+      "comparability": "Different distributed GC architecture and output interface; runtime not normalized against our SNARK."
+    },
+    {
+      "work": "Vehicle ZK-PoL",
+      "year": 2025,
+      "evaluation": "200, 3600, and 43,800 trajectory points; Raspberry Pi/phone/PC provers and remote verifier; interactive ZK backends.",
+      "reported_result": "For 43,800 points, about 36 min for EV subsidy and 59 min for highway taxation.",
+      "comparability": "Closest policy-compliance application, but trajectory-wide interactive proofs differ from our one-event noninteractive certificate."
+    },
+    {
+      "work": "CRSF",
+      "year": 2026,
+      "evaluation": "Google Cloud; fault-free and faulty executions; up to 261 sensors.",
+      "reported_result": "Largest tested total measured phase time reported around one second.",
+      "comparability": "Different collusion-resilient garbled-circuit sensor-fusion protocol; no direct proof-size/prover-time comparison."
+    }
+  ]
+}

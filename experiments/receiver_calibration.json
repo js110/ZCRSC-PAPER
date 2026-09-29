@@ -1,0 +1,90 @@
+{
+  "scope": "exploratory retrospective static single-receiver diagnostic",
+  "commit": "e9e4c6a4ded5dc7f2813265a76a56b280f714a3f",
+  "sources": [
+    {
+      "filename": "groundTruth_TST.csv",
+      "url": "https://raw.githubusercontent.com/weisongwen/GraphGNSSLib/e9e4c6a4ded5dc7f2813265a76a56b280f714a3f/global_fusion/dataset/gps_solution_TST2/groundTruth_TST.csv",
+      "sha256": "cb7446a94f128197b852faad905f78d16512831c379de7b21b168c02385abe7c"
+    },
+    {
+      "filename": "rtklibResult.pos",
+      "url": "https://raw.githubusercontent.com/weisongwen/GraphGNSSLib/e9e4c6a4ded5dc7f2813265a76a56b280f714a3f/global_fusion/dataset/gps_solution_TST2/rtklibResult.pos",
+      "sha256": "3bf847c58b7f6da2ca1aa5cf300692ef27cd0271b46939acfa64a4b5388ae545"
+    }
+  ],
+  "pos_headers": [
+    "% program   : RTKLIB ver.2.4.2",
+    "% inp file  : /home/wws/GraphGNSSLib/src/GraphGNSSLib/global_fusion/dataset/gps_solution_TST2/2020_06_03_TST_03.obs",
+    "% inp file  : /home/wws/GraphGNSSLib/src/GraphGNSSLib/global_fusion/dataset/gps_solution_TST2/hksc155d.20o",
+    "% inp file  : /home/wws/GraphGNSSLib/src/GraphGNSSLib/global_fusion/dataset/gps_solution_TST2/hksc155d.20b",
+    "% inp file  : /home/wws/GraphGNSSLib/src/GraphGNSSLib/global_fusion/dataset/gps_solution_TST2/hksc155d.20n",
+    "% obs start : 2020/06/03 03:02:27.0 GPST (week2108 270147.0s)",
+    "% obs end   : 2020/06/03 03:18:52.0 GPST (week2108 271132.0s)",
+    "% pos mode  : kinematic",
+    "% freqs     : L1+L2",
+    "% solution  : combined",
+    "% elev mask : 15.0 deg",
+    "% dynamics  : off",
+    "% tidecorr  : off",
+    "% ionos opt : broadcast",
+    "% tropo opt : saastamoinen",
+    "% ephemeris : broadcast",
+    "% navi sys  : gps glonass galileo qzss sbas",
+    "% amb res   : fix and hold",
+    "% amb glo   : on",
+    "% val thres : 3.0",
+    "% antenna1  :                       ( 0.0000  0.0000  0.0000)",
+    "% antenna2  :                       ( 0.0000  0.0000  0.0000)",
+    "% ref pos   : 22.322172082, 114.141187963,   20.2386",
+    "%",
+    "% (lat/lon/height=WGS84/ellipsoidal,Q=1:fix,2:float,3:sbas,4:dgps,5:single,6:ppp,ns=# of satellites)",
+    "%  GPST        , latitude(deg),longitude(deg), height(m),  Q, ns,  sdn(m),  sde(m),  sdu(m), sdne(m), sdeu(m), sdun(m),age(s), ratio"
+  ],
+  "protocol_sha256": "1b3acad2cad6ece0cf22212cb793a1b79d0187b2bc307077fac7eb2f53908b8f",
+  "source_reference_rows": 157,
+  "source_solution_rows": 986,
+  "unique_reference_positions": 1,
+  "matched_rows": 157,
+  "unmatched_reference_rows": 0,
+  "unmatched_solution_rows": 829,
+  "gap_rows": 10,
+  "alpha_recipe": 0.05,
+  "calibration_rank": 76,
+  "radius_m": 0.8635059502664255,
+  "calibration": {
+    "n": 78,
+    "start_gps_second": 270149.0,
+    "end_gps_second": 270226.0,
+    "q_counts": {
+      "1": 8,
+      "2": 70
+    },
+    "receiver_3sigma_contained": 8,
+    "receiver_3sigma_coverage": 0.10256410256410256,
+    "calibrated_square_contained": 76,
+    "calibrated_square_coverage": 0.9743589743589743,
+    "horizontal_median_m": 0.8687729392809023,
+    "horizontal_p95_nearest_rank_m": 0.9087165946281984,
+    "horizontal_max_m": 0.9125100067327961
+  },
+  "evaluation": {
+    "n": 69,
+    "start_gps_second": 270237.0,
+    "end_gps_second": 270305.0,
+    "q_counts": {
+      "2": 69
+    },
+    "receiver_3sigma_contained": 0,
+    "receiver_3sigma_coverage": 0.0,
+    "calibrated_square_contained": 2,
+    "calibrated_square_coverage": 0.028985507246376812,
+    "horizontal_median_m": 1.0379383280102292,
+    "horizontal_p95_nearest_rank_m": 1.4826382263946158,
+    "horizontal_max_m": 1.5217650269650498
+  },
+  "independent_trials": false,
+  "online_causal_evaluation": false,
+  "multisource_calibration": false,
+  "redistribution_permission": "unverified"
+}

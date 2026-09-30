@@ -1,0 +1,36 @@
+name: Reproduce core results
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install Python dependencies
+        run: python3 -m pip install --quiet -r requirements.txt
+
+      - name: Validate native robust semantics
+        run: python3 -m unittest -v prototype/test_robust_depth.py
+
+      - name: Reproduce synthetic semantic evaluation
+        run: python3 experiments/run_semantic_evaluation.py --output experiments/semantic_results.json
+
+      - name: Validate Go/gnark prototype
+        working-directory: prototype/zkdepth
+        run: |
+          go test ./...
+          go run ./cmd/pointbench --d 2 --bits 16 --output ../../experiments/point_zk_d2.json
+          go run ./cmd/pointbench --d 3 --bits 16 --output ../../experiments/point_zk_d3.json

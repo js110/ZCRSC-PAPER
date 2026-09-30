@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+experiments/semantic_results.json
+experiments/semantic_results_r1.json
+experiments/semantic_results_r2.json
+experiments/point_zk_d2.json
+experiments/point_zk_d3.json
+figures/*.pdf
+figures/*.png
+figures/*.svg
+figures/*_data.csv

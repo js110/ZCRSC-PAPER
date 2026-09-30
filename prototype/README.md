@@ -7,7 +7,7 @@ axis-aligned boxes.
 Run the tests locally:
 
 ```bash
-cd /Users/jiangsheng/Desktop/IEEE/revision_vehcom/paper_a/prototype
+cd prototype
 python3 -m unittest -v test_robust_depth.py
 ```
 

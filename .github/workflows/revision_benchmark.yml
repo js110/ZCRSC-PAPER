@@ -1,0 +1,37 @@
+name: Independent end-to-end subset proof benchmark
+on:
+  push:
+    branches: [revision-benchmark-20261018]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: prototype/zkdepth/go.mod
+          cache-dependency-path: prototype/zkdepth/go.sum
+      - name: Thirty real proof and verification trials on subset n=8 d=2 b=1
+        run: |
+          set -euo pipefail
+          cd prototype/zkdepth
+          go run ./cmd/bench --n 8 --d 2 --bits 16 --repetitions 30 --geometry subset --output ../../experiments/subset_n8_d2_formal_30.json | tee /tmp/benchmark.log
+          test -s ../../experiments/subset_n8_d2_formal_30.json
+          python3 - <<'PY'
+          import json,statistics
+          from pathlib import Path
+          j=json.loads(Path('../../experiments/subset_n8_d2_formal_30.json').read_text())
+          print("PEER_REVIEW_BENCHMARK_JSON="+json.dumps({
+          "n":j["n"],"d":j["d"],"constraints":j["constraints"],
+          "setup_ms":j["setup_ms"],"prove_p50_ms":statistics.median(j["prove_ms"]),
+          "prove_p95_ms":sorted(j["prove_ms"])[28],"verify_p50_ms":statistics.median(j["verify_ms"]),
+          "verify_p95_ms":sorted(j["verify_ms"])[28],"proof_bytes":j["proof_bytes"],
+          "public_witness_bytes":j["public_witness_bytes"],"platform":j["goos"]+"/"+j["goarch"],
+          "trials":len(j["prove_ms"]),"go_version":j["go_version"],"gnark":j["gnark_version"]},sort_keys=True))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: n8-d2-subset-30-proofs
+          path: experiments/subset_n8_d2_formal_30.json

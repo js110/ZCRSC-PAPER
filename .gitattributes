@@ -1,0 +1,2 @@
+# Preserve the downloaded historical artifact bytes on every checkout.
+experiments/subset_n8_d2_formal_30.json -text

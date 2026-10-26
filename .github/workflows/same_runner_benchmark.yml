@@ -1,5 +1,12 @@
 name: Pinned ZKLP and subset same-runner reproduction
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/same_runner_benchmark.yml
+      - experiments/run_same_runner.py
+      - experiments/zklp_smoke_test.go
+      - prototype/zkdepth/**
   workflow_dispatch:
     inputs:
       repetitions:
@@ -21,7 +28,7 @@ jobs:
           go-version-file: prototype/zkdepth/go.mod
           cache-dependency-path: prototype/zkdepth/go.sum
       - name: Execute both pinned implementations sequentially
-        run: python3 experiments/run_same_runner.py --work-dir "$RUNNER_TEMP/zklp-reproduction" --output-dir "$RUNNER_TEMP/same-runner" --repetitions "${{ inputs.repetitions }}"
+        run: python3 experiments/run_same_runner.py --work-dir "$RUNNER_TEMP/zklp-reproduction" --output-dir "$RUNNER_TEMP/same-runner" --repetitions "${{ inputs.repetitions || '10' }}"
       - uses: actions/upload-artifact@v4
         with:
           name: same-runner-reproduction

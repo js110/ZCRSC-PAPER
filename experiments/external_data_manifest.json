@@ -1,0 +1,23 @@
+{
+  "note": "Upstream data are not redistributed. Review upstream dataset terms before requesting a download. SHA-256 verifies the exact published source bytes.",
+  "sources": [
+    {
+      "dataset": "graphgnss",
+      "path": "graphgnss_tst2/groundTruth_TST.csv",
+      "url": "https://raw.githubusercontent.com/weisongwen/GraphGNSSLib/e9e4c6a4ded5dc7f2813265a76a56b280f714a3f/global_fusion/dataset/gps_solution_TST2/groundTruth_TST.csv",
+      "sha256": "cb7446a94f128197b852faad905f78d16512831c379de7b21b168c02385abe7c"
+    },
+    {
+      "dataset": "graphgnss",
+      "path": "graphgnss_tst2/rtklibResult.pos",
+      "url": "https://raw.githubusercontent.com/weisongwen/GraphGNSSLib/e9e4c6a4ded5dc7f2813265a76a56b280f714a3f/global_fusion/dataset/gps_solution_TST2/rtklibResult.pos",
+      "sha256": "3bf847c58b7f6da2ca1aa5cf300692ef27cd0271b46939acfa64a4b5388ae545"
+    },
+    {
+      "dataset": "urbannav",
+      "path": "UrbanNav_TST_GT_raw.txt",
+      "url": "https://raw.githubusercontent.com/IPNL-POLYU/UrbanNavDataset/e53717a40c94803cd479a140433f6d803b1a0876/tools/gt_vis/data/UrbanNav_TST_GT_raw.txt",
+      "sha256": "9d48bb497878aafbd17290789560394c72ecafec20c9e0eaff448418695d92bf"
+    }
+  ]
+}

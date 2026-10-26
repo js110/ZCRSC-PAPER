@@ -1,12 +1,12 @@
 # Resource-bounded compilation sweep
 
-Completed 15 September 2026. `plan.json` was written before data collection and contains all 32 jobs, seeded order, machine summary, bounds and code hashes. `results.json` includes every outcome; `case_*.log` are unedited child-process logs. The binary is a regenerable build product and is excluded from Git.
+Completed 15 September 2026. `plan.json` was written before data collection and contains all 32 jobs (30 unique grid configurations plus two n=5,d=2 compatibility controls), seeded order, machine summary, bounds and code hashes. `results.json` includes every outcome; `case_*.log` are unedited child-process logs. The binary is a regenerable build product and is excluded from Git.
 
 Reproduce from the Paper A directory:
 
 ```sh
-uv run --with psutil --with matplotlib python experiments/run_compile_sweep.py
-uv run --with psutil --with matplotlib python figures/render_compile_sweep.py experiments/compile_sweep_20260915T010554Z
+python3 experiments/run_compile_sweep.py
+python3 figures/render_compile_sweep.py experiments/compile_sweep_20260915T010554Z
 ```
 
 The first command creates a new timestamped run, never overwriting this dataset. Point the second command at the desired completed run. Complete R1CS counts include signatures and geometry; neither setup nor proving is executed. The depth circuit uses public k and is compiled once per n,d; k in its row identifies the paired reference, not a fixed depth constraint. n=4 subset b=2 and k=n/2 are the same configuration.

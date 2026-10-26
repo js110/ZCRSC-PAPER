@@ -1,0 +1,19 @@
+{
+  "source_run": "https://github.com/js110/ZCRSC-PAPER/actions/runs/39109997226",
+  "run_id": 39109997226,
+  "source_commit": "ac02137d230e1382b95982b794ad872f108c487e",
+  "base_implementation_commit": "1ea0bea3f8eed635105c7f7b5bfd966babc368b8",
+  "source_branch": "revision-benchmark-20261018",
+  "artifact_name": "n8-d2-subset-30-proofs",
+  "artifact_id": 12130620059,
+  "downloaded_utc_date": "2026-10-26",
+  "original_artifact_expires_at": "2027-01-16T08:03:41Z",
+  "archived_record": "subset_n8_d2_formal_30.json",
+  "record_sha256": "a7825177a7dc786564a7da5a2737629c25572133c923f0c9b2b2a9e780688874",
+  "command": "go run ./cmd/bench --n 8 --d 2 --bits 16 --repetitions 30 --geometry subset --output ../../experiments/subset_n8_d2_formal_30.json",
+  "working_directory": "prototype/zkdepth",
+  "implementation_difference": "The source commit only adds revision_benchmark.yml; implementation code is unchanged from the base commit.",
+  "interpretation": "Thirty repeated post-setup Groth16 proof and verification executions over one valid signed witness. Linux/amd64 runner; not directly comparable to Apple M1 timings.",
+  "historical_p95_method": "nearest-rank, sorted 30-trial array index 28",
+  "current_summary_p95_method": "numpy.quantile(array,0.95,method=\"linear\"); raw timings unchanged"
+}

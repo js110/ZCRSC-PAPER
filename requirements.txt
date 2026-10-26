@@ -2,3 +2,6 @@
 # CI also pins Python 3.13. Transitive wheels are resolved by pip and are not hash-locked.
 numpy==2.5.3
 matplotlib==3.11.2
+
+# Process RSS sampling for the bounded compilation sweep.
+psutil==7.0.0

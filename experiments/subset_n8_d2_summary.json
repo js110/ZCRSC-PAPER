@@ -1,0 +1,25 @@
+{
+  "n": 8,
+  "d": 2,
+  "constraints": 86354,
+  "setup_ms": 10852.209,
+  "proof_bytes": 164,
+  "public_witness_bytes": 876,
+  "go_version": "go1.25.0",
+  "goos": "linux",
+  "goarch": "amd64",
+  "record_file": "subset_n8_d2_formal_30.json",
+  "record_sha256": "a7825177a7dc786564a7da5a2737629c25572133c923f0c9b2b2a9e780688874",
+  "quantile_method": "numpy.quantile(method='linear')",
+  "numpy_version": "2.5.3",
+  "prove_ms": {
+    "trials": 30,
+    "p50": 902.0885000000001,
+    "p95": 923.1667
+  },
+  "verify_ms": {
+    "trials": 30,
+    "p50": 1.237,
+    "p95": 1.3871499999999997
+  }
+}

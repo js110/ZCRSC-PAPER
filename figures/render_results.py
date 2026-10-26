@@ -164,7 +164,7 @@ def budget_tradeoff():
     axes[0].legend(loc='lower left',fontsize=6.5)
     axes[0].set(ylabel='Coverage (%)',ylim=(0,100))
     for ax in axes[1:]:
-        ax.set(ylabel='Conditional rate (%)',ylim=(0,None))
+        ax.set(ylabel='Class-conditional error (%)',ylim=(0,None))
         ax.text(.97,.96,'Undercovered',transform=ax.transAxes,ha='right',va='top',fontsize=6.5)
     # Stored normal intervals can cross zero; preserve their full extent.
     axes[2].set_ylim(bottom=-.6)
@@ -223,8 +223,8 @@ def main():
         receiver()
     assert all(hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest
                for path,digest in SOURCES.items()), 'Source changed while plotting'
-    manifest=dict(date='2026-09-29',journal='Journal of Information Security and Applications',phase='pre-submission revision',
-                  journal_specific_figure_rules='tracked in venue_template_jisa/COMPLIANCE.md; final portal checks remain author-side',
+    manifest=dict(date='2026-10-26',journal='Journal of Network and Computer Applications',phase='pre-submission revision',
+                  journal_specific_figure_rules='Consult the current official JNCA Guide for Authors; no bundled venue template is asserted',
                   sources=SOURCES,figures=FIGURES,matplotlib=matplotlib.__version__,numpy=np.__version__,
                   script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                   raster_dpi=600,vector_formats=['pdf','svg'],grayscale_support='redundant markers and line styles; manual review required')

@@ -1,0 +1,28 @@
+name: Pinned ZKLP and subset same-runner reproduction
+on:
+  workflow_dispatch:
+    inputs:
+      repetitions:
+        description: Post-setup proofs per implementation
+        type: choice
+        options: ['1', '10', '30']
+        default: '10'
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: prototype/zkdepth/go.mod
+          cache-dependency-path: prototype/zkdepth/go.sum
+      - name: Execute both pinned implementations sequentially
+        run: python3 experiments/run_same_runner.py --work-dir "$RUNNER_TEMP/zklp-reproduction" --output-dir "$RUNNER_TEMP/same-runner" --repetitions "${{ inputs.repetitions }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: same-runner-reproduction
+          path: ${{ runner.temp }}/same-runner/

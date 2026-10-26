@@ -1,0 +1,67 @@
+{
+  "semantic_record": "semantic_results.json",
+  "sha256": "56eff5a027971903cdab53606afb575cda73ce965e44670afac052433367fd9c",
+  "macro": {
+    "conditions": [
+      "calibrated_independent__radius_2__byz_0",
+      "calibrated_independent__radius_2__byz_1",
+      "calibrated_independent__radius_4__byz_0",
+      "calibrated_independent__radius_4__byz_1",
+      "calibrated_independent__radius_6__byz_0",
+      "calibrated_independent__radius_6__byz_1",
+      "calibrated_correlated__radius_2__byz_0",
+      "calibrated_correlated__radius_2__byz_1",
+      "calibrated_correlated__radius_4__byz_0",
+      "calibrated_correlated__radius_4__byz_1",
+      "calibrated_correlated__radius_6__byz_0",
+      "calibrated_correlated__radius_6__byz_1"
+    ],
+    "robust_coverage_percent": 87.51736111111111,
+    "fixed_margin_coverage_percent": 75.63194444444444,
+    "gain_percentage_points": 11.885416666666666,
+    "bootstrap95_percentage_points": [
+      9.479166666666668,
+      14.579861111111105
+    ],
+    "bootstrap_unit": "condition-level paired difference",
+    "resamples": 20000,
+    "seed": 718263,
+    "random_generator": "numpy.random.default_rng / PCG64",
+    "scope": "Variability over this fixed twelve-condition simulation grid, not a field-performance guarantee."
+  },
+  "focus": {
+    "condition": "calibrated_correlated__radius_4__byz_1",
+    "gain_percentage_points": 9.375,
+    "bootstrap95_percentage_points": [
+      8.25,
+      10.541666666666668
+    ],
+    "bootstrap_unit": "paired simulation seed",
+    "resamples": 10000,
+    "seed": 20260905,
+    "random_generator": "numpy.random.default_rng / PCG64"
+  },
+  "undercoverage_diagnostics": {
+    "events": 2400,
+    "m_le_r": 1258,
+    "m_gt_r": 1142,
+    "robust_error_m_le_r": 0,
+    "robust_error_m_gt_r": 15,
+    "miss_histogram": {
+      "4": 355,
+      "0": 1258,
+      "2": 255,
+      "1": 249,
+      "3": 283
+    },
+    "p_m_le_r": 0.5241666666666667,
+    "p_m_gt_r": 0.47583333333333333,
+    "robust_error_rate_m_le_r": 0.0,
+    "robust_error_rate_m_gt_r": 0.013134851138353765
+  },
+  "rate_definitions": {
+    "FA": "false accepts / truly outside events",
+    "FR": "false rejects / truly inside events",
+    "wrong_among_decisive": "all wrong decisive outcomes / all decisive outcomes"
+  }
+}

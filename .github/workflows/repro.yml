@@ -19,8 +19,15 @@ jobs:
       - name: Install Python dependencies
         run: python3 -m pip install -r requirements.txt
       - name: Reference-semantics tests
-        working-directory: prototype
-        run: python3 -m unittest -v test_robust_depth.py
+        run: python3 -m unittest discover -s prototype -p test_robust_depth.py -v
+      - name: Receiver-calibration tests
+        run: python3 -m unittest discover -s experiments -p test_receiver_calibration.py -v
+      - name: Archived compilation renderer
+        run: python3 figures/render_compile_sweep.py experiments/compile_sweep_20260915T010554Z --output-dir /tmp/compile-figures
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: prototype/zkdepth/go.mod
+          cache-dependency-path: prototype/zkdepth/go.sum
       - name: Go and gnark tests
         working-directory: prototype/zkdepth
         run: go test ./...

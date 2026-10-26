@@ -9,3 +9,7 @@ figures/*.pdf
 figures/*.png
 figures/*.svg
 figures/*_data.csv
+
+# Third-party raw data downloaded explicitly from the pinned source manifest.
+experiments/graphgnss_tst2/
+experiments/UrbanNav_TST_GT_raw.txt

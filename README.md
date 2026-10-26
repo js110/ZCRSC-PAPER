@@ -1,38 +1,43 @@
 # ZCRSC-PAPER
 
-Reproducibility repository for **Zero-Knowledge Certification of Robust Spacetime Compliance under Byzantine Evidence for Vehicular Crowdsensing**.
+Public reproducibility repository for **Zero-Knowledge Certification of Robust Spacetime Compliance under Byzantine Evidence for Vehicular Crowdsensing**.
 
-The JISA manuscript source and submission material live in [js110/Apaper](https://github.com/js110/Apaper). This repository is the canonical public location for the paper's implementation and experiment workflow.
+The Journal of Network and Computer Applications (JNCA) manuscript, LaTeX figures and submission material live in [js110/Apaper](https://github.com/js110/Apaper). This separate repository contains the implementation, source scripts and experiment records cited by that manuscript.
 
-## Repository layout
+## Quick validation from this repository root
 
-- `prototype/` — exact robust-depth reference semantics plus the Go/gnark Groth16/BN254 circuits, gateway, tests, and point-ZK lower-bound baseline.
-- `experiments/` — semantic simulation, calibration/trace analysis scripts, benchmark records, compilation-sweep records, and compact result summaries.
-- `figures/` — result-figure regeneration script and publication plotting configuration.
-- `requirements.txt` — direct Python dependencies used by the experiment/plotting pipeline.
+Requires Python 3.13 (CI), Go 1.25.0 or compatible, and Git. Python dependency versions are in `requirements.txt`; Go dependencies and checksums are in `prototype/zkdepth/go.mod` and `go.sum`.
 
-## Quick validation
-
-```bash
+```sh
 python3 -m pip install -r requirements.txt
-python3 -m unittest -v prototype/test_robust_depth.py
-
-cd prototype/zkdepth
-go test ./...
-go run ./cmd/pointbench --d 2 --bits 16 --output ../../experiments/point_zk_d2.json
-go run ./cmd/pointbench --d 3 --bits 16 --output ../../experiments/point_zk_d3.json
+python3 -m unittest discover -s prototype -p test_robust_depth.py -v
+python3 -m unittest discover -s experiments -p test_receiver_calibration.py -v
+go -C prototype/zkdepth test -count=1 ./...
+python3 figures/render_compile_sweep.py experiments/compile_sweep_20260915T010554Z
 ```
 
-To regenerate the main synthetic semantic record:
+Every command above starts at the repository root. The compilation renderer uses archived measurements and does not execute the expensive sweep.
 
-```bash
-python3 experiments/run_semantic_evaluation.py --output experiments/semantic_results.json
-```
+## Reproduce the paper
 
-The full `semantic_results*.json` files are generated outputs and are intentionally not duplicated from the manuscript-development repository because they are several megabytes each. Compact summaries and the manuscript-reported formal benchmark records are versioned here. `receiver_residuals.csv` is also not copied because the receiver diagnostic is derived from third-party data whose redistribution status is not asserted by the authors.
+[experiments/README.md](experiments/README.md) maps each reported experiment to its inputs, exact commands and output records, including:
 
-## Scope and data boundary
+- the 27-condition, 30-seed synthetic evaluation and paired r=0,1,2 analyses;
+- explicit, hash-verified acquisition of pinned UrbanNav and GraphGNSSLib raw inputs;
+- the archived compilation grid (30 unique grid cases plus two compatibility controls);
+- the permanent [n=8 raw trials](experiments/subset_n8_d2_formal_30.json), [provenance](experiments/subset_n8_d2_provenance.json) and [linear-quantile summary](experiments/subset_n8_d2_summary.json);
+- a first-vector ZKLP instrumentation overlay, a same-host execution script and manual CI workflow that preserve the pinned upstream circuit and its gnark replacement.
 
-The code implements the provisioned evidence-certificate layer evaluated in the manuscript. It is not an end-to-end vehicular crowdsensing platform and does not provide participant recruitment, incentives, anonymous networking, dynamic roster management, or field calibration.
+Cryptographic timings depend on hardware and system load. Rerunning a workflow generates new measurements, not an expectation of identical historical wall-clock values. The Mac M1, same-runner comparison and n=8 Linux results are separate records.
 
-Third-party datasets and upstream reference implementations retain their own licenses and distribution terms. Scripts, hashes, and derived compact records are provided where appropriate; upstream data should be obtained from the sources cited by the paper.
+## Data and scope
+
+`prototype/` contains inclusive-integer reference semantics and Go/gnark Groth16/BN254 circuits, gateway and tests. `experiments/` contains scripts, benchmark arrays and compact summaries. `figures/` contains plotting code.
+
+Full `semantic_results*.json` files are reproducible generated outputs and are not versioned. The derived `experiments/receiver_residuals.csv` **is** versioned. Original third-party UrbanNav and GraphGNSSLib inputs are not redistributed; their pinned URLs and SHA-256 hashes are in `experiments/external_data_manifest.json`. Review the upstream dataset terms before explicitly requesting a download. Authors must confirm the appropriate publication terms for derived data.
+
+The prototype implements a provisioned evidence-certificate layer. It does not implement participant recruitment, incentives, anonymous networking, dynamic rosters, field calibration or durable distributed replay storage. All four successfully verified decision classes consume their challenges; only Valid accepts the report. Failed proof attempts leave an unexpired challenge pending.
+
+## License status
+
+No project license has yet been selected by the authors. Public availability is not a license grant. A code/data license is an outstanding author decision; this maintenance revision does not assign one on their behalf. Third-party sources and datasets retain their own terms.

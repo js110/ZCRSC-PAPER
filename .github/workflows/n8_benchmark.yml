@@ -1,0 +1,29 @@
+name: Eight-issuer full subset proof reproduction
+on:
+  workflow_dispatch:
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: prototype/zkdepth/go.mod
+          cache-dependency-path: prototype/zkdepth/go.sum
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install summary dependencies
+        run: python3 -m pip install -r requirements.txt
+      - name: Thirty full proofs and verifications
+        working-directory: prototype/zkdepth
+        run: go run ./cmd/bench --n 8 --d 2 --bits 16 --repetitions 30 --geometry subset --output "${{ runner.temp }}/subset_n8_d2_formal_30.json"
+      - name: Summarize with the common linear quantile convention
+        run: python3 experiments/summarize_benchmark_record.py "$RUNNER_TEMP/subset_n8_d2_formal_30.json" --output "$RUNNER_TEMP/subset_n8_d2_summary.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: n8-d2-subset-reproduction
+          path: |
+            ${{ runner.temp }}/subset_n8_d2_formal_30.json
+            ${{ runner.temp }}/subset_n8_d2_summary.json
